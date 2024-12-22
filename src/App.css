@@ -1,0 +1,656 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation{
+  background-color:  rgb(243, 198, 206);
+  height: 75px;
+}
+
+.navs{
+  padding: 10px;
+}
+
+.div-row{
+  background-color: rgb(161, 111, 119);;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 50px;
+}
+
+.div-col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.div-form{
+  background-color: white;
+  border-radius: 5px;
+  border-color: green;
+  padding: 10px;
+  margin: auto;
+  border-width: thin;
+  border-style: solid;
+  width: 100%;
+  height: 100%;
+}
+
+.div-logo{
+  text-align: center;
+}
+
+.href{
+  color: red;
+}
+.error{
+  color: red;
+}
+
+.column {
+  background-color: rgb(197, 218, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: rgb(75, 73, 73);
+  height: auto;
+}
+
+.footer{
+  display: flex;
+  flex-shrink: 0;
+  
+  bottom: 0;
+  background-color: rgb(243, 198, 206);
+  color: purple;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilepec{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.bannerpic{
+  padding: 10px;
+  width: 90%;
+
+}
+
+.inputarea{
+  padding: 5px;
+  border-color: brown;
+  border-style: thin;
+  border: 5px;
+}
+
+.postbutton{
+  width: 50%;
+}
+
+
+
+
+/* first.js */
+
+.background-image {
+  background: linear-gradient(to right, #6a11cb, #ff8eff); /* Gradient background */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.custom-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 20px; /* Adds space between the buttons */
+  width: 50%;
+  height: 50%;
+  
+}
+
+.custom-btn:hover {
+  transform: translateY(-5px);
+}
+
+.custom-btn:focus {
+  outline: none;
+}
+
+.link-text {
+  color: white;
+  text-decoration: none;
+}
+
+.custom-btn:nth-child(1) {
+  background-color: #ff8eff; /* Coral color */
+}
+
+.custom-btn:nth-child(2) {
+  background-color:#6a11cb; /* Green color */
+}
+
+.custom-btn:nth-child(1):hover {
+  background-color: #ff8eff; /* Darker coral on hover */
+}
+
+.custom-btn:nth-child(2):hover {
+  background-color: #6a11cb; /* Darker green on hover */
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .custom-btn {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+}
+
+/*BookStore*/
+
+.bookStore .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.bookStore {
+  background-color: rgb(161, 111, 119); /* Blue background */
+  padding: 20px; /* Optional: adds some padding around the content */
+}
+
+.custom-purple-btn {
+  background-color: #6a1b9a; /* Purple background */
+  border-color: #6a1b9a; /* Same purple border */
+  color: white; /* White text */
+}
+
+
+/* --------------------------------------------------------- */
+.share-posts-container {
+  background: linear-gradient(135deg, #ffe6f7, #d9b3ff); /* Soft pink to purple gradient */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-pic {
+  width: 100%;
+  max-height: 250px;
+  border-radius: 10px;
+}
+
+.header-row {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.feedback-header {
+  color: #800080; /* Deep purple */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input-row {
+  margin-top: 15px;
+}
+
+.input-text {
+  border: 2px solid #ff99cc; /* Light pink */
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff5fa; /* Light pink background */
+  color: #800080; /* Purple text */
+}
+
+.input-text::placeholder {
+  color: #b266b2; /* Light purple placeholder */
+}
+
+.button-row {
+  margin-top: 10px;
+}
+
+.post-button {
+  width: 100%;
+  background-color: #ff66b2; /* Vibrant pink */
+  border-color: #ff66b2;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.post-button:hover {
+  background-color: #d147a3; /* Slightly darker pink */
+  transform: scale(1.05);
+}
+
+
+
+/* Styling for post cards */
+.post-card {
+  width: 30rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.post-card-header {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 15px 15px 0 0;
+}
+
+.post-user-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-user-name {
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+.post-time {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.post-msg {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #495057;
+}
+
+.post-map {
+  border: none;
+  width: 100%;
+  height: 200px;
+}
+
+.post-card-footer {
+  background-color: #f1f3f5;
+  border-radius: 0 0 15px 15px;
+  padding: 10px 15px;
+}
+
+.post-action-icon {
+  cursor: pointer;
+}
+
+.post-like-icon, .post-dislike-icon {
+  color: #28a745;
+  transition: color 0.3s;
+}
+
+.post-like-icon:hover, .post-dislike-icon:hover {
+  color: #218838;
+}
+
+.post-edit-icon, .post-delete-icon {
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.post-edit-icon:hover, .post-delete-icon:hover {
+  color: #0056b3;
+}
+
+.update-modal .modal-header {
+  background-color: #f1f3f5;
+}
+
+.update-modal .modal-footer {
+  background-color: #f1f3f5;
+}
+
+/* home page design ---------------- */
+.home-container {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(161, 111, 119); /* Blue background */
+  padding: 20px; /* Optional: adds some padding around the content */
+  border-radius: 20px;
+}
+
+.user-row {
+  margin-bottom: 20px;
+  background: linear-gradient( #eb88a5, #cc95e2); /* Adds a gradient background */
+  padding: 20px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  color: white; /* Text color to match the gradient */
+  display: flex;
+  align-items: center; /* Vertically center content */
+  justify-content: space-between; /* Add spacing for content */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.user-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.share-posts-row {
+  margin-bottom: 20px;
+}
+
+.share-posts-column {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.posts-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.posts-row .col {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+/* General Styles */
+.post-row {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.post-card {
+  background: linear-gradient(135deg, #f3f4f6, #ffffff);
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+/* Header */
+.post-card-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+.post-time {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Body */
+.post-card-body {
+  padding: 15px;
+}
+
+.post-map {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.post-message {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Footer */
+.post-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 15px;
+  border-top: 1px solid #e9ecef;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.thumbs-up {
+  color: #2ecc71;
+}
+
+.thumbs-down {
+  color: #e74c3c;
+}
+
+.edit-icon {
+  color: #3498db;
+}
+
+.delete-icon {
+  color: #e74c3c;
+}
+
+/* Modal */
+.modal-header {
+  background: #3498db;
+  color: #fff;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ------------------------------
+---------------------------------
+---------drama books style*/
+
+
+.book-store {
+   background-color: rgb(161, 111, 119); /* Blue background */
+  padding: 20px 0;
+}
+
+.text{
+  font-family: 'Merriweather', serif;
+  letter-spacing: 1px;
+  color: plum;
+}
+
+.book-card {
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.book-card:hover {
+  transform: translateY(-5px); /* Slight hover lift effect */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.book-img {
+  height: 300px; /* Fixed height for consistency */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  border-radius: 12px 12px 0 0; /* Match rounded corners */
+}
+
+.book-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.text-secondary {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+/*------------------aboutus page---------*/
+
+.aboutUs {
+  background-color: rgb(161, 111, 119); /* Blue background */
+  min-height: 100vh;
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.aboutUs-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.aboutUs-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.aboutUs-card {
+  border: none;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutUs-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fda085;
+}
+
+.card-id {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .aboutUs-title {
+      font-size: 2rem;
+  }
+  .aboutUs-description {
+      font-size: 1rem;
+  }
+}

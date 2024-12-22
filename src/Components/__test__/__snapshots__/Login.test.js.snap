@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Match the UI 1`] = `
+<DocumentFragment>
+  <div
+    class="container-fluid"
+  >
+    <div
+      class="div-row row"
+    >
+      <div
+        class="div-col col-md-6"
+      >
+        <form
+          class="div-form"
+        >
+          <div
+            class="div-logo"
+          >
+            <img
+              height="100px"
+              src="logo-t.jpg"
+              width="200px"
+            />
+            <h2>
+              Book Library
+            </h2>
+          </div>
+          <div
+            class="mb-3"
+          >
+            <h6>
+              Login to book library!
+            </h6>
+            <label
+              class="form-label"
+            >
+              No Account?
+              <a
+                href="/register"
+              >
+                 Sign Up Now
+              </a>
+            </label>
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="form-control"
+              id="email"
+              name="email"
+              type="email"
+            />
+            <p
+              class="error"
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+            >
+              Password
+            </label>
+            <input
+              class="form-control"
+              id="password"
+              name="password"
+              type="password"
+            />
+            <p
+              class="error"
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <input
+              class="form-control form-check-input"
+              type="checkbox"
+            />
+            <label
+              class="form-label"
+            >
+              Remember Me
+            </label>
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+            >
+              Forgot Password !
+            </label>
+          </div>
+          <div
+            class="mb-3"
+          >
+            <button
+              class="form-control btn btn-primary"
+              type="button"
+            >
+              SIGN IN
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
